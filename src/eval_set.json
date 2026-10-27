@@ -1,0 +1,18 @@
+[
+ {"question": "RAG 解决了大语言模型的哪三个核心痛点?", "expected_source": "rag_overview.md", "keyword": "时效性"},
+ {"question": "递归字符切块和语义切块有什么区别?", "expected_source": "rag_overview.md", "keyword": "语义突变"},
+ {"question": "RRF 的打分公式是什么?常数 k 一般取多少?", "expected_source": "rag_overview.md", "keyword": "倒数排名融合"},
+ {"question": "BM25 擅长处理什么样的查询,弱点是什么?", "expected_source": "rag_overview.md", "keyword": "词频"},
+ {"question": "什么是 HyDE?它为什么能提升检索质量?", "expected_source": "advanced_rag.md", "keyword": "HyDE"},
+ {"question": "CRAG 是怎么给检索结果打分并触发纠错的?", "expected_source": "advanced_rag.md", "keyword": "CRAG"},
+ {"question": "GraphRAG 和 LightRAG 有什么区别?", "expected_source": "advanced_rag.md", "keyword": "LightRAG"},
+ {"question": "RAG 评估的三个核心维度分别衡量什么?", "expected_source": "advanced_rag.md", "keyword": "忠实度"},
+ {"question": "DeepSeek API 的 base_url 是什么?和 OpenAI SDK 怎么配合使用?", "expected_source": "llm_api_guide.md", "keyword": "api.deepseek.com"},
+ {"question": "RAG 问答场景下 temperature 应该设置成多少?为什么?", "expected_source": "llm_api_guide.md", "keyword": "temperature"},
+ {"question": "抑制大模型幻觉最有效的提示词手段是什么?", "expected_source": "llm_api_guide.md", "keyword": "不知道"},
+ {"question": "把检索到的文档块拼进提示词时,推荐的结构化格式是什么样的?", "expected_source": "llm_api_guide.md", "keyword": "编号"},
+
+ {"question": "如何在 Kubernetes 集群上部署这套 RAG 系统?", "expected_source": null},
+ {"question": "GPT-4 的训练数据截止到什么时候?", "expected_source": null},
+ {"question": "Llama 3 模型采用的是什么开源协议?", "expected_source": null}
+]
